@@ -176,85 +176,84 @@ a {
   color: black;
 }
 
-
 @media screen and (max-width: 1550px) {
-    .content {
-      padding: 0 50px;
-    }
-    .logo-title {
-      font-size: 45px;
-    }
-    .menu-item {
-      padding: 0 0 0 22px;
-      font-size: 15px;
-    }
-    .title {
-      font-size: 100px;
-      font-weight: 600;
-    }
-    .home {
-    }
-    .left-content {
-      flex-grow: 1;
-      margin-top: 75px;
-      width: 100%;
-    }
-    .sub-title {
-      font-size: 35px;
-    }
-    .for {
-      font-size: 22px;
-      line-height: 25px;
-      margin-right: 60px;
-    }
-    .button-container {
-      font-size: 25px;
-    }
-  
-    /* services */
-    .services {
-      margin-top: 32px;
-      font-size: 22px;
-      line-height: 25px;
-    }
-    .ser-title {
-      font-size: 60px;
-      margin: 30px 0;
-    }
-    .ser-des {
-      font-size: 22px;
-      margin-right: 40px;
-    }
-    .ser-item {
-      margin: 35px 0;
-    }
-  
-    .ser-item-image {
-      width: 120px;
-      height: 130px;
-    }
-    .item-date {
-      font-size: 33px;
-    }
-    .item-title {
-      font-size: 30px;
-      margin: 15px 0;
-    }
-    /* about us */
-    .about-us {
-      margin-top: 32px;
-      font-size: 22px;
-      line-height: 25px;
-    }
-    .ab-title {
-      font-size: 60px;
-    }
-    .ab-image {
-      background: grey;
-      height: 380px;
-      width: 100%;
-    }
+  .content {
+    padding: 0 50px;
   }
+  .logo-title {
+    font-size: 45px;
+  }
+  .menu-item {
+    padding: 0 0 0 22px;
+    font-size: 15px;
+  }
+  .title {
+    font-size: 100px;
+    font-weight: 600;
+  }
+  .home {
+  }
+  .left-content {
+    flex-grow: 1;
+    margin-top: 75px;
+    width: 100%;
+  }
+  .sub-title {
+    font-size: 35px;
+  }
+  .for {
+    font-size: 22px;
+    line-height: 25px;
+    margin-right: 60px;
+  }
+  .button-container {
+    font-size: 25px;
+  }
+
+  /* services */
+  .services {
+    margin-top: 32px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .ser-title {
+    font-size: 60px;
+    margin: 30px 0;
+  }
+  .ser-des {
+    font-size: 22px;
+    margin-right: 40px;
+  }
+  .ser-item {
+    margin: 35px 0;
+  }
+
+  .ser-item-image {
+    width: 120px;
+    height: 130px;
+  }
+  .item-date {
+    font-size: 33px;
+  }
+  .item-title {
+    font-size: 30px;
+    margin: 15px 0;
+  }
+  /* about us */
+  .about-us {
+    margin-top: 32px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .ab-title {
+    font-size: 60px;
+  }
+  .ab-image {
+    background: grey;
+    height: 380px;
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 1350px) {
   .content {
@@ -336,6 +335,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .content {
+    padding: 0 20px;
+  }
   .logo-title {
     font-size: 20px;
   }
@@ -347,5 +349,8 @@ a {
   }
   .about-us {
     flex-direction: column;
+  }
+  .for{
+    margin-right: 20px;
   }
 }
