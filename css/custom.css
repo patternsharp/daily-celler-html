@@ -46,11 +46,13 @@ body {
 }
 
 .title {
-  position: fixed;
+  position: relative;
+  transform: translateY(100%);
   font-size: 158px;
   font-weight: 600;
 }
 .home {
+    /* position: absolute; */
 }
 
 .description {
@@ -187,9 +189,11 @@ a {
     padding: 0 0 0 22px;
     font-size: 15px;
   }
+
   .title {
-    font-size: 100px;
-    font-weight: 600;
+    position: relative;
+    transform: translateY(75%);
+    font-size: 80px;
   }
   .home {
   }
@@ -267,8 +271,8 @@ a {
     font-size: 15px;
   }
   .title {
-    font-size: 70px;
-    font-weight: 600;
+    transform: translateY(75%);
+    font-size: 50px;
   }
   .home {
   }
@@ -341,6 +345,10 @@ a {
   .logo-title {
     font-size: 20px;
   }
+  .title {
+    transform: translateY(30%);
+    font-size: 40px;
+  }
   .description {
     flex-direction: column;
   }
@@ -350,7 +358,7 @@ a {
   .about-us {
     flex-direction: column;
   }
-  .for{
+  .for {
     margin-right: 20px;
   }
 }
