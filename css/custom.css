@@ -43,6 +43,7 @@ body {
   font-size: 29px;
   list-style-type: none;
   font-family: "Montserrat";
+  cursor: pointer;
 }
 
 .title {
@@ -53,6 +54,7 @@ body {
 }
 .home {
     /* position: absolute; */
+    margin-bottom: 40px;
 }
 
 .description {
@@ -90,7 +92,7 @@ body {
 /* services */
 .services {
   margin-top: 50px;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   font-size: 32px;
@@ -146,11 +148,12 @@ body {
 /* about us */
 .about-us {
   margin-top: 50px;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   font-size: 32px;
   line-height: 40px;
+  margin-bottom: 50px;
 }
 .ab-title {
   font-size: 83px;
@@ -344,6 +347,11 @@ a {
   }
   .logo-title {
     font-size: 20px;
+  }
+
+
+  .right-content{
+    height: 400px;
   }
   .title {
     transform: translateY(30%);
